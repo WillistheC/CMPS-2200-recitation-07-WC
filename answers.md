@@ -13,7 +13,7 @@ Place all written answers from `recitation-07.md` here for easier grading.
 
   Since fib_recursive calls the recursion on $n-1$ and $n-2$, we get $W(n) = 1 + W(n-1) + W(n-2)$
 
-  After $k$ expansions, it reaches $W(n) \aprox (2^{k}-1) + 2^{k}W(n-k) = 2^{n+1} + 2^{n}W(0) = O(2^{n})
+  After $k$ expansions, it reaches $W(n) \approx (2^{k}-1) + 2^{k}W(n-k) = 2^{n+1} + 2^{n}W(0) = O(2^{n})
 
 - **3) (2 pts)** Write a recurrence for the **span** of this algorithm and solve it.
 
