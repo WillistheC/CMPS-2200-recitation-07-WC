@@ -31,3 +31,5 @@ It is called at most twice, so $W(n) = O(2n) = O(n)$
 
 - **8) (2 pts)** When computing $F_n$, what is the maximum number of times that
   $F_i$ will be read from the list for any value $i$? Based on this, what is the **work** and **span** of `fib_bottom_up`?
+
+It is called at most twice, so $W(n) = O(2n) = O(n)$
